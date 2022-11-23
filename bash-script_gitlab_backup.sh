@@ -29,11 +29,11 @@ echo $mail_message
 echo $mail_message | mailx  \
 -r "gitlab@geleceginsehri.com" \
 -s "GitLAB yedek islemi gerceklesti" \
--S smtp="mail.geleceginsehri.com:25" \
+-S smtp="mail.domain.com:25" \
 -S smtp-use-starttls \
 -S smtp-auth=login \
--S smtp-auth-user="gitlab@geleceginsehri.com" \
--S smtp-auth-password="_CUgNRo2:1Td" \
+-S smtp-auth-user="gitlab@domain.com" \
+-S smtp-auth-password="_Pass:1Td" \
 -S ssl-verify=ignore \
 yektakbas@gmail.com
 
