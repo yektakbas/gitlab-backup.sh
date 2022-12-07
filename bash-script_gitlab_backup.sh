@@ -27,7 +27,7 @@ else
 fi
 echo $mail_message
 echo $mail_message | mailx  \
--r "gitlab@geleceginsehri.com" \
+-r "gitlab@domain.com" \
 -s "GitLAB yedek islemi gerceklesti" \
 -S smtp="mail.domain.com:25" \
 -S smtp-use-starttls \
